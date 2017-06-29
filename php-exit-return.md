@@ -1,5 +1,5 @@
 
-
+## PHP中exit,die,return的区别
 
 * return是返回值
 * die是遇到错误才停止
