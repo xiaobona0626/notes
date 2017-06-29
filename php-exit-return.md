@@ -17,7 +17,7 @@ void exit ( int $status )
 
 中止脚本的执行。 尽管调用了 exit()， Shutdown函数 以及 object destructors 总是会被执行。
 
-$status
-如果 $status 是一个字符串，在退出之前该函数会打印 status 。
+> $status
+> 如果 $status 是一个字符串，在退出之前该函数会打印 status 。
 
-如果 $status 是一个 integer，该值会作为退出状态码，并且不会被打印输出。 退出状态码应该在范围0至254，不应使用被PHP保留的退出状态码255。 状态码0用于成功中止程序。
+> 如果 $status 是一个 integer，该值会作为退出状态码，并且不会被打印输出。 退出状态码应该在范围0至254，不应使用被PHP保留的退出状态码255。 状态码0用于成功中止程序。
