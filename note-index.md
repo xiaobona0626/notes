@@ -4,6 +4,7 @@
 * 中文网 http://www.redis.cn/
 * Redis的六种特性  http://www.cnblogs.com/markhe/p/5689356.html
 * redis命令中文解说 http://redisdoc.com/
+* Redis源码解析  http://redissrc.readthedocs.io/en/latest/#id3
 * Redis源码分析（一）--Redis结构解析 http://blog.csdn.net/androidlushangderen/article/details/39803337
 
 ## memcache
