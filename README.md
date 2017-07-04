@@ -1,14 +1,14 @@
 # 00 Index
 
 
-[面向对象](/oop.md)
+* [面向对象](/oop.md)
 
-[php](/oop.md)
+* [php](/oop.md)
 
-[mysql](/oop.md)
+* [mysql](/oop.md)
 
-[LINUX5大IO模型](/oop.md)
+* [LINUX5大IO模型](/oop.md)
 
-[memcached & redis](/note-index.md)
+* [memcached & redis](/note-index.md)
 
-[git](/git/index.md)
+* [git](/git/index.md)
