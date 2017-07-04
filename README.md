@@ -1,30 +1,14 @@
-# notes
+# 00 Index
 
-Command line instructions
 
-Git global setup
-```
-git config --global user.name "Bernard"
-git config --global user.email "xiao.bona@qq.com"
-```
-Create a new repository
-```
-git clone git@gitlab.dev.com:dev/app-oa.git
-cd app-oa
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
-```
-Existing folder or Git repository
-```
-cd existing_folder
-git init
-git remote add origin git@gitlab.dev.com:dev/app-oa.git
-git push -u origin master
-```
 [面向对象](/oop.md)
-[php]()
-[mysql]()
-[LINUX5大IO模型]()
+
+[php](/oop.md)
+
+[mysql](/oop.md)
+
+[LINUX5大IO模型](/oop.md)
+
 [memcached & redis](/note-index.md)
+
+[git](/git.md)
