@@ -11,4 +11,4 @@
 
 * [memcached & redis](/note-index.md)
 
-* [git](/git/index.md)
+* [git](git/index.md)
