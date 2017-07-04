@@ -23,3 +23,8 @@ git init
 git remote add origin git@gitlab.dev.com:dev/app-oa.git
 git push -u origin master
 ```
+[面向对象](/oop.md)
+[php]
+[mysql]
+[LINUX5大IO模型]
+[memcached & redis](/note-index.md)
