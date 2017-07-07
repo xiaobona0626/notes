@@ -57,7 +57,8 @@ static void settings_init(void) {
 }
 ```
 
-```typedef struct {
+```
+typedef struct {
     unsigned int size;      /* sizes of items */
     unsigned int perslab;   /* how many items per slab */
 
