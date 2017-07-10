@@ -10,3 +10,4 @@
 * 官网  http://memcached.org/
 * Memcache-内存模型-源码分析 http://www.jianshu.com/p/a824ae00d9bb
 * Linux-slab分配器剖析 https://www.ibm.com/developerworks/cn/linux/l-linux-slab-allocator/
+* 分布式缓存系统 Memcached整体架构 http://www.linuxidc.com/Linux/2015-01/112507.htm
