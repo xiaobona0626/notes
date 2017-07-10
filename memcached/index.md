@@ -6,6 +6,7 @@
 ## memcached 存储结构图
 ![Markdown](http://i1.buimg.com/1949/ed8fe2b864ea1c21.png)
 
+## settings 参数
 ```
 static void settings_init(void) {
     settings.use_cas = true;
@@ -63,6 +64,7 @@ static void settings_init(void) {
 }
 ```
 
+## slabclass 结构
 ```
 typedef struct {
     unsigned int size;      /* sizes of items */
