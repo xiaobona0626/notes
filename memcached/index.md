@@ -1,4 +1,4 @@
-
+![Markdown](http://i1.buimg.com/1949/ed8fe2b864ea1c21.png)
 
 ```
 static void settings_init(void) {
