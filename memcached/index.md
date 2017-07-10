@@ -1,8 +1,9 @@
-##Slab Allocation的结构
+## Slab Allocation的结构
 * 每个slab的chunk大小是固定的，当item的占用空间实际小于chunk大小时
 * 每个slab的大小是固定的(因为page是固定的），当slab不能被他所拥有的chunk整除时，会出现内存浪费 所以需要对齐，减少内存碎片和内存回收
 * 按照Growth Factor因子生成指定大小的slab，而某slab id根本未被使用时，会出现内存浪费
 
+## memcached 存储结构图
 ![Markdown](http://i1.buimg.com/1949/ed8fe2b864ea1c21.png)
 
 ```
