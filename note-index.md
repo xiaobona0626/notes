@@ -13,3 +13,5 @@
 * 分布式缓存系统 Memcached整体架构 http://www.linuxidc.com/Linux/2015-01/112507.htm
 * memcached-1.4.20 主要启动流程笔记 http://www.cnblogs.com/bicowang/p/3815896.html
 * Memcached内存存储 http://www.cnblogs.com/codershuai/p/6150002.html
+* memcached源码分析 http://blog.csdn.net/column/details/memcached-src.html
+* Libevent源码分析 http://blog.csdn.net/luotuo44/article/category/2435521/2
