@@ -1,4 +1,4 @@
-## centos7 mini 版安装
+## CentOS7 mini 版安装
 
 * 安装依赖包
 ```
