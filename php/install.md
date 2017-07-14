@@ -40,6 +40,7 @@ chmod +x /etc/init.d/php-fpm
 /etc/init.d/php-fpm start
 ```
 
+# 编译问题
 
 * 如果 php7编译报错 define struct flock on this system, set --enable-opcache=no
 ```
