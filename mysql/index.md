@@ -24,16 +24,18 @@ License）许可协议，正式进入开源世界。
 ### 2.1 物理文件组成
 MYSQL的物理文件主要有 日志文件、数据文件、Replication相关文件。
 #### 日志文件
-* 1、错误日志：Error Log  
-* 2、二进制日志：Binary Log & Binary Log Index  
+* 1、错误日志：Error Log 
+* 2、通用查询日志：General query log
+* 3、二进制日志：Binary Log  
     **二进制日志，也就是我们常说的 binlog，也是 MySQL Server 中最为重要的日志之一。**
 当我们通过“--log-bin[=file_name]”打开了记录的功能之后，MySQL 会将所有修改数据
 库数据的 query 以二进制形式记录到日志文件中。当然，日志中并不仅限于 query 语句这么
 简单，还包括每一条 query 所执行的时间，所消耗的资源，以及相关的事务信息，所以 binlog
 是事务安全的。
-* 4、查询日志：query log
+* 4、中继接替日志：Relay log
 * 5、慢查询日志：slow query log
-* 6、Innodb 的在线 redo 日志：innodb redo log
+* 6、DDL日志：DDL log
+
 ## 3，MYSQL存储引擎简介
 ## 4，MYSQL安全管理
 ## 5，MYSQL备份与恢复
