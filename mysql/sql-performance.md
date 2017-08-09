@@ -40,20 +40,20 @@ insert into relation(`key`,`column1`) values('xiao',1) on duplicate key update c
 ## 10，用where 子句替换having子句
 
 # 合理使用索引
-1，联合索引要遵循最左侧原则
-2，字段使用函数，将不能使用索引
-3，致命的无引号导致全表扫描，无法引用索引
-4，当去除的数据量超过表中数据的20%,优化器就不会使用索引，而是全表扫描
-5，考虑不为某些列建立索引 例如男、女，是、否 这种均匀分布的值
-6，order by ,group by 优化，
-一条SQL只能有一个索引，如果有多条索引，优化器会选择最有的，
+1，联合索引要遵循最左侧原则  
+2，字段使用函数，将不能使用索引  
+3，致命的无引号导致全表扫描，无法引用索引  
+4，当去除的数据量超过表中数据的20%,优化器就不会使用索引，而是全表扫描  
+5，考虑不为某些列建立索引 例如男、女，是、否 这种均匀分布的值  
+6，order by ,group by 优化，  
+一条SQL只能有一个索引，如果有多条索引，优化器会选择最有的，  
 ```
 select * from `test_change` where pid= 20170803 order by change_date
 ```
-可以建立一个`pid` 和 `change_date` 的联合索引
-order by 后有多个字段，他么的顺序要一致，如果一个是降序，一个是升序，也会出现Using filesort排序
-7,MySQL5.6 支持explain update/delete
-8,MYSQL5.6 InnoDB 引擎支持全文索引
-9，MYSQL5.6 支持Multi-Range Read 索引优化
-MYSQL5.6 优化器会先扫描索引，然后收集每行的主键，并对主键排序，此时就可以用主键顺序访问基表，即用顺序I/O代替了随机I/O.
-10,MYSQL5.6 优化了Index Merge 合并索引，也就是说一条SQL可以用上两个索引了。
+可以建立一个`pid` 和 `change_date` 的联合索引  
+order by 后有多个字段，他么的顺序要一致，如果一个是降序，一个是升序，也会出现Using filesort排序  
+7,MySQL5.6 支持explain update/delete  
+8,MYSQL5.6 InnoDB 引擎支持全文索引  
+9，MYSQL5.6 支持Multi-Range Read 索引优化  
+MYSQL5.6 优化器会先扫描索引，然后收集每行的主键，并对主键排序，此时就可以用主键顺序访问基表，即用顺序I/O代替了随机I/O.  
+10,MYSQL5.6 优化了Index Merge 合并索引，也就是说一条SQL可以用上两个索引了。  
