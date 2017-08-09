@@ -38,6 +38,23 @@ insert into relation(`key`,`column1`) values('xiao',1) on duplicate key update c
 ## 8，优化不必要的嵌套select查询 , 改成 join
 ## 9, 不必要的表自身链接
 ## 10，用where 子句替换having子句
+## 11，利用 覆盖索引 优化SQL
+```
+mysql> ALTER TABLE sakila.inventory ADD INDEX idx_store_id_film_id (store_id,film_id)
+mysql> SELECT store_id,film_id FROM sakila.inventory;
+```
+```
+mysql> SELECT * FROM sakila.inventory;
+```
+如果 只需要查store_id、film_id 两个字段，并且两个字段正好有复合索引，索引就可以覆盖到要查的值，就不会回表查询行记录  
+如果是 select * 的话，就不会走复合索引  
+
+```
+select user_id from user where user_id=10;   //不会回表查询，索引里就有select 的数据，
+select * from user where user_id=10;         // 会回表查询，根据索引指向的行数据拿取数据，消耗IO
+```
+
+
 
 # 合理使用索引
 1，联合索引要遵循最左侧原则  
@@ -57,3 +74,4 @@ order by 后有多个字段，他么的顺序要一致，如果一个是降序�
 9，MYSQL5.6 支持Multi-Range Read 索引优化  
 MYSQL5.6 优化器会先扫描索引，然后收集每行的主键，并对主键排序，此时就可以用主键顺序访问基表，即用顺序I/O代替了随机I/O.  
 10,MYSQL5.6 优化了Index Merge 合并索引，也就是说一条SQL可以用上两个索引了。  
+
