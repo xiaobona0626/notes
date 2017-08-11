@@ -1,5 +1,6 @@
 * MySQL的InnoDB索引原理详解 http://www.cnblogs.com/shijingxiang/articles/4743324.html  
 * 数据行长度的一些限制 http://www.cnblogs.com/zhiqian-ali/p/5037317.html
+* MySQL索引原理及慢查询优化 https://tech.meituan.com/mysql-index.html  
 
 ## Mysql 两种索引结构  
 1，B+Tree  
