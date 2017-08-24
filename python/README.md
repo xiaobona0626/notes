@@ -7,3 +7,4 @@
 * Creating Virtual Environments https://packaging.python.org/tutorials/installing-packages/
 * 廖雪峰的官方网站 https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
 * Python 爬虫的工具列表 http://python.jobbole.com/82633/
+* Scrapy爬虫项目分析 http://blog.csdn.net/yancey_blog/article/details/53887606
