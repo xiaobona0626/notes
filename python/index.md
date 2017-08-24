@@ -8,3 +8,11 @@
 ```
 pip install virtualenv
 ```
+
+### Create Project
+```
+$ mkdir projectName
+$ cd projectName
+$ virtualenv --no-site-packages .env  或  python3 -m venv .env 
+$ source .env/bin/activate
+```
