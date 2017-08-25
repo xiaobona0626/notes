@@ -9,3 +9,5 @@
 * Python 爬虫的工具列表 http://python.jobbole.com/82633/
 * Scrapy爬虫项目分析 http://blog.csdn.net/yancey_blog/article/details/53887606
 *  Scrapy爬虫入门教程 http://blog.csdn.net/Inke88/article/details/61915020
+* 利用新接口抓取微信公众号的所有文章 http://cuiqingcai.com/4652.html
+
