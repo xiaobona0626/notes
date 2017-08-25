@@ -17,3 +17,9 @@ $ cd projectName
 $ virtualenv --no-site-packages .env  或  python3 -m venv .env 
 $ source .env/bin/activate
 ```
+
+
+```
+$ python -m venv .virtualenv
+$ ve pip install -r requirements.txt
+```
