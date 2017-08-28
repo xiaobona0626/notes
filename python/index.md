@@ -23,3 +23,8 @@ $ source .env/bin/activate
 $ python -m venv .virtualenv
 $ ve pip install -r requirements.txt
 ```
+
+ModuleNotFoundError: No module named 'win32api'
+```
+$ pip install pypiwin32
+```
