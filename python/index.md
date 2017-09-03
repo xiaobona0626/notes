@@ -28,3 +28,13 @@ ModuleNotFoundError: No module named 'win32api'
 ```
 $ pip install pypiwin32
 ```
+
+# pyenv 使用
+```
+$ pyenv install -l  //可以安装的列表
+$ pyenv install 3.5.4 // 安装的程序
+$ pyenv global 3.5.4  // 全局版本
+$ pyenv rehash        // 安装完成之后需要对数据库进行更新
+$ pyenv versions      // 查看系统已安装的版本
+$ pyenv local 3.5.4   // 指定目录的python版本
+```
