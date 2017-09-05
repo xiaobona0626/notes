@@ -13,3 +13,4 @@
 * Python爬虫系列之----Scrapy(七)使用IP代理池  http://blog.csdn.net/u011781521/article/details/70194744?locationNum=4&fps=1
 
 * python模块以及导入出现ImportError: No module named 'xxx'问题 http://blog.csdn.net/damotiansheng/article/details/43916881
+* 向scrapy中的spider传递参数的几种方法 http://blog.csdn.net/q_an1314/article/details/50748700
