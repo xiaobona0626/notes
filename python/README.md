@@ -14,3 +14,4 @@
 
 * python模块以及导入出现ImportError: No module named 'xxx'问题 http://blog.csdn.net/damotiansheng/article/details/43916881
 * 向scrapy中的spider传递参数的几种方法 http://blog.csdn.net/q_an1314/article/details/50748700
+* 通过Scrapyd schedule.json  API来传递 http://scrapyd.readthedocs.io/en/stable/overview.html#projects-and-versions
