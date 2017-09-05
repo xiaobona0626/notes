@@ -11,3 +11,5 @@
 *  Scrapy爬虫入门教程 http://blog.csdn.net/Inke88/article/details/61915020
 * 利用新接口抓取微信公众号的所有文章 http://cuiqingcai.com/4652.html
 * Python爬虫系列之----Scrapy(七)使用IP代理池  http://blog.csdn.net/u011781521/article/details/70194744?locationNum=4&fps=1
+
+* python模块以及导入出现ImportError: No module named 'xxx'问题 http://blog.csdn.net/damotiansheng/article/details/43916881
