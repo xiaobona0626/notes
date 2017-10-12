@@ -13,4 +13,4 @@
 
 * [git](git/index.md)
 * [算法] LeetCode
-* [运维] (/ops.md)
+* [运维] (/ops/index.md)
