@@ -14,3 +14,4 @@
 * [git](git/index.md)
 * [算法] LeetCode
 * [运维](ops/index.md)
+* [机器学习] 吴恩达教学课程
