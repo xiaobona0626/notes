@@ -2,10 +2,10 @@
 用salt管理成千上万的服务器 : http://www.lshell.com/2015/12/With-tens-of-thousands-of-salt-management-server.html  
 
 # open-falcon
-1,[git falcon-plus](https://github.com/open-falcon/falcon-plus)
-2,[open-falcon doc](http://book.open-falcon.org/zh/intro/index.html)
-3,[open-falcon编写的整个脑洞历程](https://mp.weixin.qq.com/s?__biz=MjM5OTcxMzE0MQ==&mid=400225178&idx=1&sn=c98609a9b66f84549e41cd421b4df74d)
-4,[简析运维监控系统及Open-Falcon](http://blog.csdn.net/puma_dong/article/details/51895063)
+1,[git falcon-plus](https://github.com/open-falcon/falcon-plus)  
+2,[open-falcon doc](http://book.open-falcon.org/zh/intro/index.html)  
+3,[open-falcon编写的整个脑洞历程](https://mp.weixin.qq.com/s?__biz=MjM5OTcxMzE0MQ==&mid=400225178&idx=1&sn=c98609a9b66f84549e41cd421b4df74d)  
+4,[简析运维监控系统及Open-Falcon](http://blog.csdn.net/puma_dong/article/details/51895063)  
 
 # 开源跳板机 Jumpserver
 1,[git]https://github.com/jumpserver/jumpserver
