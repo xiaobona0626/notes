@@ -59,6 +59,13 @@ include ld.so.conf.d/*.conf
 /usr/local/lib
 ```
 
+## phpbrew 安装gd扩展
 
+phpbrew ext install gd \
+-- --with-gd=shared \
+--enable-gd-native-ttf \
+--with-freetype-dir=/usr/include/freetype2/freetype\
+--with-libdir=lib/x86_64-linux-gnu --with-gd=shared --enable-gd-native-ttf \
+--with-jpeg-dir=/usr --with-png-dir=/usr
 
 
