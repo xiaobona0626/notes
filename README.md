@@ -8,6 +8,7 @@
 * [mysql](/oop.md)
 
 * [LINUX5大IO模型](/oop.md)
+https://blog.csdn.net/anxpp/article/details/51503329
 
 * [memcached & redis](/note-index.md)
 
