@@ -17,5 +17,7 @@ https://blog.csdn.net/anxpp/article/details/51503329
 * [运维](ops/index.md)
 * [机器学习] 吴恩达教学课程
 
+* [review](revew/index.md)
+
 
 http://blog.csdn.net/hobohero/article/details/54381738
