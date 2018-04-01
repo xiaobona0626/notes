@@ -1,7 +1,7 @@
 
 ## MYSQL
 ### 1,mysql优化
-sql 查询优化，先唯一索引=,一般索引=,唯一索引范围,一般索引范围
+(1) sql 查询优化，先唯一索引=,一般索引=,唯一索引范围,一般索引范围
 
 name是唯一索引，region_id是普通索引，region_id=1200的记录有11条
 ```
@@ -12,7 +12,9 @@ $ explain select * from t_street_copy where name<'农' and region_id=1200;
 +----+-------------+---------------+------+---------------+------------+---------+-------+------+-------------+
 |  1 | SIMPLE      | t_street_copy | ref  | idx_region    | idx_region | 5       | const |   11 | Using index |
 +----+-------------+---------------+------+---------------+------------+---------+-------+------+-------------+
-```
+```  
+(2)MySQL 的索引和最左前缀原则 [链接](https://www.cnblogs.com/jamesbd/p/4333901.html)
+
 
 ### 2,mysql事务隔离级别  [链接](https://www.cnblogs.com/huanongying/p/7021555.html)
 * 事务基本要素：一致性，原子性，隔离性，持久性
