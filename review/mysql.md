@@ -25,3 +25,4 @@ $ explain select * from t_street_copy where name<'农' and region_id=1200;
   3,Next-Key Lock: Gap Lock+Record Lock 锁定一个范围并锁定记录本身  
 
 
+### mysql explain用法和结果的含义[链接](https://www.cnblogs.com/yycc/p/7338894.html)
