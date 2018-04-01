@@ -32,3 +32,4 @@ $ explain select * from t_street_copy where name<'农' and region_id=1200;
 
 ### 参考
 * [Mysql 索引优化分析](https://www.yanshuo.me/p/133130)
+* [MySQL 执行计划(Using where,Using index 和 Using index condition)](https://blog.csdn.net/z69183787/article/details/53393153)
