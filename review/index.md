@@ -1,7 +1,7 @@
 
 # 20170726 REVIEW
 
-  * mysql 优化
+  * [mysql 优化](./mysql.md)
   * linux reactor
   * io模型
   * memcache 内存分配
