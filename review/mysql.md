@@ -26,3 +26,8 @@ $ explain select * from t_street_copy where name<'农' and region_id=1200;
 
 
 ### mysql explain用法和结果的含义[链接](https://www.cnblogs.com/yycc/p/7338894.html)
+
+
+
+### 参考
+* [Mysql 索引优化分析](https://www.yanshuo.me/p/133130)
