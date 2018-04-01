@@ -15,7 +15,8 @@ $ explain select * from t_street_copy where name<'农' and region_id=1200;
 ```  
 (2)MySQL 的索引和最左前缀原则 [链接](https://www.cnblogs.com/jamesbd/p/4333901.html)
 
-
+(3)什么是回表？  
+    简单来说就是数据库根据索引找到了指定的记录所在行后，还需要根据rowid再次到数据块里取数据的操作；  
 ### 2,mysql事务隔离级别  [链接](https://www.cnblogs.com/huanongying/p/7021555.html)
 * 事务基本要素：一致性，原子性，隔离性，持久性
 * 隔离级别：读未提交，不可重复读，可重复读，串行话
