@@ -6,6 +6,9 @@
 * Redis源码解析  http://redissrc.readthedocs.io/en/latest/#id3
 * Redis源码分析（一）--Redis结构解析 http://blog.csdn.net/androidlushangderen/article/details/39803337
 
+
+string类型控制在10KB以内，hash、list、set、zset元素个数不要超过5000。
+
 # 01 memcache
 * 官网  http://memcached.org/
 * Memcache-内存模型-源码分析 http://www.jianshu.com/p/a824ae00d9bb
