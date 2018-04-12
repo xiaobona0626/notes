@@ -17,6 +17,8 @@
 * Libevent源码分析 http://blog.csdn.net/luotuo44/article/category/2435521/2
 * Memcache-网络线程模型-源码分析 http://www.jianshu.com/p/16295a1f1cd2
 
+key 建议不大于250个字符，value不大于1M
+
 
 # 关键词
 HAProxy 事件驱动
