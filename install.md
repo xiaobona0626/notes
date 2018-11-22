@@ -1,3 +1,4 @@
+```
 yum install gcc-c++
 yum install -y pcre pcre-devel
 yum install -y zlib zlib-devel
@@ -12,3 +13,4 @@ make install
 vi /etc/rc.local
 /usr/local/nginx/sbin/nginx
 chmod 755 rc.local
+```
